@@ -1,0 +1,9 @@
+#ifndef _VARENUM_H_
+#define _VARENUM_H_
+
+typedef enum VAR_TYPE
+{
+    TYPE_INT, TYPE_VOID, TYPE_UNDEFINED, TYPE_CHAR, TYPE_FLOAT
+}VAR_TYPE;
+
+#endif
